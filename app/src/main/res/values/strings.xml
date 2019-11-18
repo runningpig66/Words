@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Words</string>
+    <string name="insert">Insert</string>
+    <string name="update">Update</string>
+    <string name="clear">Clear</string>
+    <string name="delete">Delete</string>
+    <string name="switch1">CardView</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
