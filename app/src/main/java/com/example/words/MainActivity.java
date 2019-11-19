@@ -2,6 +2,7 @@ package com.example.words;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.inputmethod.InputMethodManager;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -50,6 +51,12 @@ public class MainActivity extends AppCompatActivity {
                 "整数类型"
         };
     }
+
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        getMenuInflater().inflate(R.menu.main_menu, menu);
+//        return super.onCreateOptionsMenu(menu);
+//    }
 
     @Override
     public void onBackPressed() {

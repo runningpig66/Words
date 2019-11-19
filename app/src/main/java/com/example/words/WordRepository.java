@@ -17,6 +17,10 @@ class WordRepository {
         allWordsLive = wordDao.getAllWordsLive();//LiveData数据不需要单独放子线程，系统会自动操作
     }
 
+    LiveData<List<Word>> findWordsWithPattern(String pattern) {
+        return wordDao.findWordsWithPattern("%" + pattern + "%");//模糊匹配
+    }
+
     LiveData<List<Word>> getAllWordsLive() {
         return allWordsLive;
     }
